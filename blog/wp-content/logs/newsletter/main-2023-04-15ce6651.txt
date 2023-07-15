@@ -1,0 +1,2 @@
+13-04-2023 19:00:26 - ERROR - 7.6.6 - 15,3 MB/2 GB - [cron] > Blocked by transient newsletter_main_engine set 0 seconds ago by /home/u628759500/domains/visualwebdigital.com.br/public_html/blog/;br-asc-web801.main-hosting.eu
+13-04-2023 19:00:26 - ERROR - 7.6.6 - 15,1 MB/2 GB - [cron] > Blocked by transient newsletter_main_engine set 0 seconds ago by /home/u628759500/domains/visualwebdigital.com.br/public_html/blog/;br-asc-web801.main-hosting.eu

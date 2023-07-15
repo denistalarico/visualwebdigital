@@ -1,0 +1,356 @@
+@charset "UTF-8";
+@font-face {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+#main {width: 100%; padding:0;}
+.content-asset p {margin:0 auto;}
+.breadcrumb {display:none;}
+
+/* Nav-Menu */
+
+li:hover {
+	border-bottom: 3px #e4867f solid;
+	font-weight: bold;
+	-webkit-transition: 0.1s ease-in;
+	-moz-transition: 0.1s ease-in;
+	-o-transition: 0.1s ease-in;
+	transition: 0.1s ease-in;
+		}
+ul#menu-nav a {
+	color: #63a3c4;
+	font-size: 14pt;
+}
+
+.pag-atual {
+	border-bottom: 3px #e4867f solid;
+}
+
+/* Articles */
+
+article h1#titulo {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 40pt;
+	font-weight: bold;
+	color: #63a2c4;
+	margin-top: 70px;
+} 
+
+article h3#subtitulo {
+	font-size: 18pt;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+article h3 span#mark-span {
+	font-weight: bold;
+	color: #e4867f;
+}
+
+article a#b-contato {
+	padding: 10px 15px 10px 15px;
+	border-radius: 5px;
+	margin-right: 20px;
+	font-weight: bold;
+	font-size: 16pt;
+	background-color: #e4867f;
+	border: none;
+	margin-bottom: 20px;
+	color: white;
+}
+
+article a#b-contato:hover {
+	background-color: transparent;
+	border: 2px solid #e4867f;
+	color: #2A2A2A;
+}
+
+article a#b-servico {
+	padding: 10px 15px 10px 15px;
+	border-radius: 5px;
+	margin-right: 20px;
+	font-weight: bold;
+	font-size: 16pt;
+	background-color: transparent;
+	border: 2px solid #e4867f;
+	color: #2A2A2A;
+	margin-bottom: 20px;
+}
+
+article a#b-servico:hover {
+	background-color: #e4867f;
+	border: none;
+	color: white;
+	animation: .5s ease-in ease-out;
+}
+
+article img#celular {
+	max-height: 600px;
+}
+
+article#h-servicos {
+	background-color: #e4867f;
+}
+article#h-servicos h1 {
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+}
+article#h-servicos h3 {
+	color: white;
+	text-align: center;
+	font-size: 16pt;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+article#h-servicos a#botao-precos {
+	font-weight: bold;
+	margin:auto;
+}
+article#h-servicos p#botaoPrecos {
+	margin: 30px;
+}
+
+article#h-servicos div#carddeck {
+	padding: 10px;
+	margin: auto 50px auto 50px;
+}
+
+#botao-servicos {
+	border-radius: 5px;
+	background-color: #e4867f;
+	color: white;
+	border: none;
+	margin-bottom: 50px;
+	margin-top: 10px;
+	padding: 10px;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+
+#titulo-sobre {
+	padding: 100px 0px 20px 0px;
+	font-weight: bold;
+}
+#texto-sobre {
+	font-size: 13pt;
+}
+
+#h-sobre {
+	background-image: url("../_imagens/bg-sobre.png");
+	background-position: top;
+	background-repeat: no-repeat;
+
+}
+
+#img-sobre {
+	padding-top: 100px;
+}
+
+/* Parallax */
+
+.parallax-home {
+	padding-top: 0px; 
+	padding-bottom: 0px; 
+	overflow: hidden; 
+	width: 100%; 
+	background-image: url("../_imagens/bg-home.png"); 
+	background-repeat: no-repeat; 
+	background-position: bottom;
+
+}
+.parallax-about {
+	padding-top: 0px; 
+	padding-bottom: 0px; 
+	overflow: hidden; 
+	width: 100%; 
+	background-image: url("../_imagens/bg-sobre.png"); 
+	background-repeat: no-repeat; 
+	background-position: top;
+}
+
+/* Footer */
+
+  footer#rodape {
+	  background-color: #f7f7f7; 
+	  display: block;
+	  overflow-x: hidden; 
+}
+  footer#rodape a {
+              color: #313243;
+          }
+  footer#rodape h3 {
+              font-weight: bolder;
+          }
+  footer#rodape p#fim {
+              background-color: #e5e5e5;
+              padding-top: 15px;
+              padding-bottom: 15px;
+          }
+  footer div#menu-esq {
+              padding: 100px 5px 50px 100px;
+          }
+  footer div#menu-dir {
+              padding: 100px 100px 50px 5px;
+          }
+  footer div#menu-logo {
+      padding-top: 100px;
+	  padding-right: 100px;
+	  text-align: right;	  
+          }
+  footer div#menu-logo p#slogan {
+      text-align: right;
+      font-weight: bold;
+	  margin-right: 0px;
+	            }
+  footer div#menu-logo p#redes {
+      padding: 50px 0px 50px 50px;	  	  
+		}
+
+
+.img-fluid {
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+#myBtn {
+	opacity: .2;
+ 	display: none;
+  	position: fixed;
+  	bottom: 60px; 
+  	right: 5px; 
+  	z-index: 99;
+  	border: none;
+  	outline: none;
+  	background-color: transparent;
+  	cursor: pointer;
+  	padding: 15px;
+}
+
+#myBtn:hover {
+	opacity: 1;
+}
+
+#whatsapp {
+ 	display: block;
+  	position: fixed;
+  	bottom: 130px; 
+  	right: 18px; 
+  	z-index: 99;
+  	border: none;
+  	outline: none;
+  	background-color: rgba(255,255,255,1);
+  	cursor: pointer;
+  	padding: 5px;
+	border-radius: 10px;
+}
+
+/* Sobre */
+
+#somos {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-heigh: bold;
+	font-size: 28pt;
+}
+
+div#parallax-sobre {
+	background-color: #2d3741;
+}
+
+div#parallax-sobre img {
+	max-width: 500px;
+}
+
+.parallax-um {
+	padding-top: 100px;
+	padding-bottom: 0px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	background-image: url("../_imagens/tabela1-star-br.png");
+	background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.parallax-dois {
+	padding-top: 0px;
+	padding-bottom: 100px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	background-image: url("../_imagens/BG-fundo-2.png");
+	background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.block-sobre {
+	padding-top: 0px;
+	padding-bottom: 100px;
+	background-color: #2d3741;
+	margin: 0px 10px 0px 10px;
+	text-align: center;
+}
+
+.block-sobre h1 {
+	color: white;
+	font-size: 30pt;
+	font-weight: bold;
+}
+
+.block-sobre p {
+	color: white;
+	font-size: 16pt;
+	padding: 10px 100px 0px 100px;
+}
+
+.block-sobre span {
+	color: #e4867f;
+}
+
+/* Serviços */
+
+
+#Dev-sites {
+	padding: 30px;
+}
+
+#mkt-digital {
+	padding: 30px;
+}
+
+#id-visual {
+	padding: 30px;
+}
+
+#img-dev-site {
+	margin: 10px 50px 10px 50px;
+}
+
+#img-mkt-digital {
+	margin: 10px 50px 10px 50px;
+}
+
+#img-id-visual {
+	margin: 10px 50px 10px 50px;
+}
+
+#corpo-serv h1 {
+	color: #63a2c4;
+	font-size: 32pt;
+}
+
+
